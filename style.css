@@ -1,0 +1,74 @@
+td {
+  height: 15px;
+  width: 15px;
+}
+/* .grid-table,
+td {
+  border: 2px solid black;
+}
+.grid-table tbody td {
+  border: 1px solid rgb(205, 232, 255);
+} */
+.bgRed {
+  background-color: red;
+  /* animation-name: keyBlack; */
+  /* animation-duration: 0.5s; */
+  /* animation-delay: 2s; */
+}
+@keyframes keyBlack {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: gray;
+  }
+}
+@keyframes keyWhite {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: white;
+  }
+}
+.SnakHead {
+  background-color: rgb(0, 38, 255);
+  /* animation-name: keyBlack; */
+  /* animation-iteration-count: infinite; */
+  /* animation-duration: 1s; */
+}
+.bgBlack {
+  background-color: black;
+  /* animation-name: keyBlack; */
+  /* animation-duration: 0.1s; */
+  /* animation-delay: 2s; */
+}
+.bgWhite {
+  background-color: White;
+  /* animation-name: keyWhite; */
+  /* animation-duration: 0.1s; */
+  /* animation-delay: 2s; */
+}
+
+/* .grid-table tbody tr:first > td,
+.grid-table tbody tr:last > td {
+  background-color: red;
+}
+.grid-table tbody > tr > td:last-child,
+.grid-table tbody > tr > td:first-child {
+  background-color: red;
+} */
+@keyframes keyFood {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: green;
+  }
+}
+.food {
+  background-color: green;
+  animation-name: keyFood;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
