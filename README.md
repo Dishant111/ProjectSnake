@@ -1,2 +1,2 @@
 # ProjectSnake
-###saneke game for learning Data Stucture
+###Snake game for learning Data Stucture
